@@ -90,11 +90,18 @@ openclaw tools list
 - Tapt inntekt: 384k - 1,14 mill kr/år
 - ROI for kunde: 10-50x
 
-**Hva den gjør:**
-- Svarer telefonen med naturlig AI-stemme
-- Tar imot navn, telefon, hva det gjelder
-- Sender SMS til håndverker med info
-- Lagrer leads
+**MVP (Minimum Viable Product) - Fase 1:**
+- ✅ Svarer telefonen på norsk
+- ✅ Tar imot: navn, telefonnummer, hva det gjelder
+- ✅ Videresender info til håndverker (SMS/epost)
+- ✅ Lagrer leads enkelt
+- ❌ Ingen avansert booking ennå
+- ❌ Robot-stemme OK i starten (naturlig = bonus)
+
+**Teknologi-valg:**
+- Primær: Retell AI (enkelt, raskt, $10 gratis)
+- Backup: VoiceGenie (hvis norsk stemme er kritisk)
+- Språk: Norsk (kan starte med robot-aktig, forbedre senere)
 
 ### Salgsstrategi
 - ✅ Telefon-outreach er OK — jeg kan ringe med god forberedelse
