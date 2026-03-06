@@ -52,7 +52,28 @@ openclaw tools list
 - Kuratert minne: `MEMORY.md` (denne filen)
 - Verktøy-notater: `TOOLS.md`
 
+## Tryms preferanser og forutsetninger
+
+### Salgskomfort
+- **Telefonsalg:** Ikke superkomfortabel, MEN kan gjøre det med god forberedelse og tro på produktet
+- **Viktig:** Må ha full tro på det jeg sier — da er jeg villig til å ringe
+
+### Produktkrav
+- **Kvalitet:** Fullstendig trygt for kunden — ingen halvveis løsninger
+- **Leveranse:** Klart produkt og måte å levere på
+- **Pris:** Gjerne billig i starten, men ikke FOR billig (verdsetting)
+- **Tidsramme:** Ikke hast — vil gjøre det ordentlig
+- **Læring:** Villig til å lære tekniske ting hvis det er verdt det
+
+### Tryms unike salgsargumenter (USPs)
+- **Lokal i Trondheim** — kjenner byen, kan møtes fysisk
+- **Altaværing** — lokal tilknytning til Finnmark også
+- **Billig** — student, lavere overhead enn byråer
+- **Datateknologi student** — spesialiserer i AI og programvareutvikling
+- **Personlig service** — ikke et stort byrå, faktisk bryr seg
+
 ## Viktige avklaringer som mangler
-- [ ] Hvilke bransjer er primærmål? (håndverk, restauranter, etc.)
-- [ ] Hva koster en AI-assistent? (fastpris/månedlig?)
-- [ ] Hva inkluderes? (oppsett, drift, support?)
+- [ ] Hvilke bransjer er primærmål? (avventer research)
+- [ ] Hva koster en AI-assistent? (avventer research)
+- [ ] Hva inkluderes? (avventer research)
+- [ ] Hvilken salgskanal? (telefon, email, møter — avventer research)
