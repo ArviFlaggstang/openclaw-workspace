@@ -33,6 +33,43 @@ SMS til håndverker
 | SMS-varsling | Håndverker får SMS umiddelbart etter samtale |
 | Lead-logg | Oversikt over alle henvendelser |
 
+## Hvordan kunden bruker tjenesten
+
+### Oppsett (vi gjør dette)
+1. Vi kjøper nytt telefonnummer (f.eks. 930 12 345)
+2. Vi konfigurerer AI-en med håndverkerens info
+3. Vi kobler nummeret til AI-en
+4. Vi tester at SMS kommer til håndverkerens telefon
+
+### Daglig bruk (kunden gjør ingenting)
+- Håndverkeren beholder sitt gamle nummer (f.eks. 901 23 456)
+- **NYTT nummer (930 12 345) blir markedsført:**
+  - På nettside
+  - I Google Maps
+  - På bilen
+  - I annonser
+  - På visittkort
+
+### Hva som skjer
+```
+Kunde ser: "Ring 930 12 345 for rørleggerhjelp"
+    ↓
+Kunde ringer 930 12 345
+    ↓
+AI svarer, tar imot info
+    ↓
+Håndverker får SMS: "Ny henvendelse fra Ola, tlf 123 45 678, 
+                      gjelder vannlekkasje"
+    ↓
+Håndverker ringer tilbake til kunden
+```
+
+### Overgangsfase (valgfritt)
+Hvis håndverkeren vil beholde gammelt nummer:
+- Gammelt nummer kan videresendes til nytt AI-nummer
+- Eks: 901 23 456 → 930 12 345
+- Da svarer AI-en uansett hvilket nummer kunden ringer
+
 ## Hva kunden IKKE trenger
 
 - ❌ OpenClaw
