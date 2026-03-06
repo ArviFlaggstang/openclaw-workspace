@@ -72,8 +72,49 @@ openclaw tools list
 - **Datateknologi student** — spesialiserer i AI og programvareutvikling
 - **Personlig service** — ikke et stort byrå, faktisk bryr seg
 
+## Forretningsstrategi (vedtatt 2026-03-06)
+
+### Målgruppe
+**Primær:** Håndverkere (VVS, elektrikere, rørleggere) i Trondheim
+**Sekundær:** Håndverkere i Alta (lokal tilknytning)
+
+### Produkt: "AI Resepsjonist for Håndverkere"
+**Start enkelt:** Én god funksjon som fungerer solid, ikke alt på en gang
+**Pris:** 4.500 kr/mnd + 8.000 kr oppsett (6 mnd minimum)
+**Verdi:** 24/7 leads, aldri miste kundehenvendelser
+
+### Salgsstrategi
+- ✅ Telefon-outreach er OK — jeg kan ringe med god forberedelse
+- ✅ Gratis pilot til første kunde (for case study)
+- ✅ Test på kjent bedrift først (mors bedrift)
+
+### Fase 1: Demo & Validering (før salg)
+1. [ ] Bygg fungerende demo av AI-resepsjonist
+2. [ ] Test på mors bedrift (case study)
+3. [ ] Identifiser én solid funksjon som skaper mest verdi
+4. [ ] Første gratis pilot-kunde
+
+### Fase 2: Salg & Skalering
+1. [ ] Finne leads i Trondheim og Alta
+2. [ ] Lage outreach scripts
+3. [ ] Bygge enkel CRM for pipeline
+4. [ ] Konvertere pilot til betalende kunde
+
+### Arvis rolle
+- Finne leads i Trondheim OG Alta
+- Hjelpe med å bygge demo
+- Lage outreach scripts
+- Bygge enkel CRM for pipeline tracking
+- Research: Hvilken ÉN funksjon skaper mest verdi for håndverkere?
+
+### Prinsipper
+- Start enkelt, én ting som fungerer bra
+- Ordentlig kvalitet først, skalering etterpå
+- Ingen hast — vil gjøre det riktig
+- Bruke lokal tilknytning (Trondheim + Alta) som fordel
+
 ## Viktige avklaringer som mangler
-- [ ] Hvilke bransjer er primærmål? (avventer research)
-- [ ] Hva koster en AI-assistent? (avventer research)
-- [ ] Hva inkluderes? (avventer research)
-- [ ] Hvilken salgskanal? (telefon, email, møter — avventer research)
+- [x] Hvilke bransjer er primærmål? ✅ Håndverkere
+- [x] Hva koster en AI-assistent? ✅ 4.500 kr/mnd + 8.000 kr oppsett
+- [x] Hva inkluderes? ✅ Starter med én solid funksjon (avklares)
+- [x] Hvilken salgskanal? ✅ Telefon + email, med demo først
