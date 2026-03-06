@@ -83,6 +83,19 @@ openclaw tools list
 **Pris:** 4.500 kr/mnd + 8.000 kr oppsett (6 mnd minimum)
 **Verdi:** 24/7 leads, aldri miste kundehenvendelser
 
+### ÉN funksjon først: AI Telefonsvar 24/7
+**Hvorfor:**
+- 28% av samtaler tapes (opptil 150/mnd)
+- 85% av kunder ringer videre til konkurrent umiddelbart
+- Tapt inntekt: 384k - 1,14 mill kr/år
+- ROI for kunde: 10-50x
+
+**Hva den gjør:**
+- Svarer telefonen med naturlig AI-stemme
+- Tar imot navn, telefon, hva det gjelder
+- Sender SMS til håndverker med info
+- Lagrer leads
+
 ### Salgsstrategi
 - ✅ Telefon-outreach er OK — jeg kan ringe med god forberedelse
 - ✅ Gratis pilot til første kunde (for case study)
