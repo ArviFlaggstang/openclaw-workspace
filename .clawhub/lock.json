@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1772753006352
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1772754120757
+    },
+    "oracle": {
+      "version": "1.0.1",
+      "installedAt": 1772754131336
+    },
+    "himalaya": {
+      "version": "1.0.0",
+      "installedAt": 1772755058590
+    }
+  }
+}
