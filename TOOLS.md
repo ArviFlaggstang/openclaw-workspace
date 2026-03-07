@@ -1,40 +1,55 @@
-# TOOLS.md - Local Notes
+# TOOLS.md - Lokale notater og verktøy
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## 🔐 GitHub
+- **Konto:** ArviFlaggstang
+- **E-post:** arvi@openclaw.ai
+- **SSH Key:** ~/.ssh/github_arvi
+- **Hoved-repo:** github.com/ArviFlaggstang/openclaw-workspace
+- **Setup-script:** ~/.openclaw/workspace/github-ssh-setup.sh
 
-## What Goes Here
+## 🌐 Web & Hosting
 
-Things like:
+### Vercel
+- **Konto:** ArviFlaggstang (via GitHub)
+- **Prosjekter:**
+  - altaie-hair-hub.vercel.app (demo for frisør)
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+### Retell AI (under oppsett)
+- **Konto:** (registreres ved behov)
+- **Bruk:** AI telefonsvarer
+- **Språk:** Norsk (nb-NO)
+- **TTS:** ElevenLabs
 
-## Examples
+## 🛠️ Utviklingsverktøy
 
-```markdown
-### Cameras
+### Lokalt miljø
+- **OS:** Ubuntu 24.04 (Hetzner VPS)
+- **RAM:** 4GB
+- **Shell:** bash
+- **Editor:** (ikke spesifisert - VS Code?)
 
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
+### Node.js/JS-verktøy
+- **npm:** Tilgjengelig
+- **Vite:** Brukt i Lovable-prosjekter
+- **React:** Via Lovable/Next.js
 
-### SSH
+## 📋 Viktige filer og scripts
 
-- home-server → 192.168.1.100, user: admin
+### Backup
+- **Script:** ~/.openclaw/backup.sh
+- **Logg:** ~/.openclaw/backup.log
+- **Frekvens:** Daglig (cron)
 
-### TTS
+### SSH-nøkler
+- **GitHub:** ~/.ssh/github_arvi
+- **Config:** ~/.ssh/config
 
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
+## 📝 Templates (lages snart)
+- Salgspitch for håndverkere
+- E-post til potensielle kunder
+- Prosjektoppsett for nye kunder
 
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+## 🔧 Huskeliste
+- [ ] Legg til Retell AI API-nøkkel når opprettet
+- [ ] Spesifiser editor (VS Code?)
+- [ ] Legg til eventuelle andre API-nøkler
