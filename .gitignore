@@ -1,0 +1,18 @@
+# SSH-nøkler - ALDRI del disse!
+.ssh/
+*.pem
+*.key
+id_rsa
+id_ed25519
+id_ecdsa
+github_arvi
+
+# Tokens og secrets
+.env
+*.token
+.github_token
+
+# Midlertidige filer
+*.log
+*.tmp
+/tmp/
