@@ -1,6 +1,6 @@
 # MEMORY.md — Langtidsminne
 
-_Updated: 2026-03-06_
+_Updated: 2026-03-09 (ukentlig gjennomgang)_
 
 ## Trym — Hvem du er
 - **Navn:** Trym Johnsen
@@ -132,6 +132,30 @@ openclaw tools list
 - Ordentlig kvalitet først, skalering etterpå
 - Ingen hast — vil gjøre det riktig
 - Bruke lokal tilknytning (Trondheim + Alta) som fordel
+
+## Ukens lærdommer (uke ending 2026-03-09)
+
+### Teknisk oppsett
+- **PRODUKTPLAN.md** eksisterer i workspace med full arkitektur for AI Telefonsvar
+- **Prosjektmapper** under `projects/active/`: `ai-telefonsvarer/`, `ai-lead-gen/`, `ai-automasjon/`
+- `ai-telefonsvarer/` har god dokumentasjon: PLAN.md, KOMPLETT_OPPSETT.md, GRATIS_TESTING.md, retell-oppsett.md, NORSKE_NUMMER_SANNHET.md, VIDEREKOBLING_FORKLARING.md
+- Commit 955cb90: "Add AI resepsjonist documentation: testing, setup, phone numbers, forwarding" — siste commit
+- n8n-workflows-reference repo er klonet lokalt
+
+### Tananger-leads (2026-03-07)
+- Arvi researched bedrifter i Tananger (4056) med svake nettsider
+- **Beste leads (🔴 Svak nettside, høyt potensial):**
+  - Tananger Tannlegene — 51 64 47 47
+  - Tananger Frisør og Parfymeri — 51 69 66 51
+  - NOR Elektro Automasjon — elektriker uten nettside
+  - Team VVS — rørlegger uten nettside
+  - Harveland Entreprenør — entrepreneur uten nettside
+- Disse bedriftene i Tananger er aktuell som leads for AI Resepsjonist-produkt
+
+### Status per 2026-03-09 (mandag)
+- Demo av AI-resepsjonist: **ikke bekreftet ferdig** — ukjent status
+- Pilot-kunde: **ikke bekreftet** — ukjent status
+- Neste steg fra sist: Bygg fungerende demo → test på mors bedrift → første gratiskunde
 
 ## Viktige avklaringer som mangler
 - [x] Hvilke bransjer er primærmål? ✅ Håndverkere
