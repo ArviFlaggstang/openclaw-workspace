@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altaie Frisør - Bestill Time</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 500px;
+            width: 100%;
+            padding: 40px;
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .logo h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        
+        .logo p {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .info-box p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .form-step {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .btn-primary {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 10px;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .phone {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 25px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .phone a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        /* SimplyBook iframe */
+        #simplybook-container {
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        #simplybook-iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .success-message h3 {
+            color: #28a745;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>✂️ Altaie Frisør</h1>
+            <p>Din lokale frisør i Alta</p>
+        </div>
+        
+        <div id="booking-form">
+            <h2>Bestill Time</h2>
+            <p class="subtitle">Fyll ut skjemaet, så tar vi kontakt for å bekrefte</p>
+            
+            <div class="info-box">
+                <p>📞 Vi ringer deg innen 24 timer for å bekrefte tidspunkt.<br>
+                💳 Du betaler først når nettsiden er ferdig og oppe!</p>
+            </div>
+            
+            <!-- Steg 1: Tjeneste -->
+            <div class="form-step" id="step-1">
+                <label for="service">Tjeneste *</label>
+                <select id="service" required>
+                    <option value="">Velg tjeneste</option>
+                    <option value="herreklipp">Herreklipp - 350 kr (30 min)</option>
+                    <option value="dameklipp">Dameklipp - 450 kr (45 min)</option>
+                    <option value="barnklipp">Barnklipp - 250 kr (20 min)</option>
+                    <option value="farging">Farging - 800 kr (90 min)</option>
+                    <option value="striper">Striper/Highlights - 1200 kr (120 min)</option>
+                    <option value="barbering">Barbering - 200 kr (15 min)</option>
+                </select>
+            </div>
+            
+            <!-- Steg 2: Dato -->
+            <div class="form-step" id="step-2" style="display:none;">
+                <label for="date">Ønsket dato *</label>
+                <input type="date" id="date" required>
+            </div>
+            
+            <!-- Steg 3: Tid -->
+            <div class="form-step" id="step-3" style="display:none;">
+                <label for="time">Ønsket tid *</label>
+                <select id="time" required>
+                    <option value="">--:--</option>
+                    <option value="09:00">09:00</option>
+                    <option value="09:30">09:30</option>
+                    <option value="10:00">10:00</option>
+                    <option value="10:30">10:30</option>
+                    <option value="11:00">11:00</option>
+                    <option value="11:30">11:30</option>
+                    <option value="12:00">12:00</option>
+                    <option value="12:30">12:30</option>
+                    <option value="13:00">13:00</option>
+                    <option value="13:30">13:30</option>
+                    <option value="14:00">14:00</option>
+                    <option value="14:30">14:30</option>
+                    <option value="15:00">15:00</option>
+                    <option value="15:30">15:30</option>
+                    <option value="16:00">16:00</option>
+                    <option value="16:30">16:30</option>
+                </select>
+            </div>
+            
+            <!-- Steg 4: Kontakt -->
+            <div class="form-step" id="step-4" style="display:none;">
+                <label for="name">Ditt fulle navn *</label>
+                <input type="text" id="name" placeholder="Navn" required>
+                
+                <label for="phone">Telefon *</label>
+                <input type="tel" id="phone" placeholder="+47 XXX XX XXX" required>
+            </div>
+            
+            <button type="button" id="next-btn" class="btn-primary">Neste</button>
+        </div>
+        
+        <!-- SimplyBook vises her -->
+        <div id="simplybook-container" style="display:none;">
+            <p style="text-align:center; margin-bottom:10px;">📅 Fullfør bookingen i vårt system:</p>
+            <iframe id="simplybook-iframe"></iframe>
+        </div>
+        
+        <div class="phone">
+            <p>Har du spørsmål?</p>
+            <a href="tel:95123456">📞 951 23 456</a>
+        </div>
+    </div>
+    
+    <script>
+        // Enkel steg-for-steg logikk
+        let currentStep = 1;
+        const totalSteps = 4;
+        
+        const nextBtn = document.getElementById('next-btn');
+        
+        // Vis neste steg når forrige er valgt
+        document.getElementById('service').addEventListener('change', function() {
+            if (this.value) {
+                document.getElementById('step-2').style.display = 'block';
+            }
+        });
+        
+        document.getElementById('date').addEventListener('change', function() {
+            if (this.value) {
+                document.getElementById('step-3').style.display = 'block';
+            }
+        });
+        
+        document.getElementById('time').addEventListener('change', function() {
+            if (this.value) {
+                document.getElementById('step-4').style.display = 'block';
+            }
+        });
+        
+        // Neste-knapp
+        nextBtn.addEventListener('click', function() {
+            // Valider nåværende steg
+            let valid = false;
+            
+            switch(currentStep) {
+                case 1:
+                    valid = document.getElementById('service').value !== '';
+                    break;
+                case 2:
+                    valid = document.getElementById('date').value !== '';
+                    break;
+                case 3:
+                    valid = document.getElementById('time').value !== '';
+                    break;
+                case 4:
+                    valid = document.getElementById('name').value !== '' && 
+                            document.getElementById('phone').value !== '';
+                    break;
+            }
+            
+            if (!valid) {
+                alert('Vennligst fyll ut feltet');
+                return;
+            }
+            
+            currentStep++;
+            
+            if (currentStep <= totalSteps) {
+                document.getElementById(`step-${currentStep}`).style.display = 'block';
+                document.getElementById(`step-${currentStep}`).scrollIntoView({ behavior: 'smooth' });
+            }
+            
+            if (currentStep === totalSteps) {
+                nextBtn.textContent = 'Fullfør booking →';
+            }
+            
+            if (currentStep > totalSteps) {
+                // Vis SimplyBook
+                showSimplyBook();
+            }
+        });
+        
+        function showSimplyBook() {
+            const service = document.getElementById('service').value;
+            const date = document.getElementById('date').value;
+            const time = document.getElementById('time').value;
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            
+            // I demo: vis mock iframe
+            // I produksjon: bytt ut med faktisk SimplyBook URL
+            document.getElementById('booking-form').style.display = 'none';
+            document.getElementById('simplybook-container').style.display = 'block';
+            
+            // Mock URL - bytt ut med faktisk SimplyBook URL
+            const mockUrl = `https://simplybook.me/v2/?service=${service}&date=${date}&time=${time}&name=${encodeURIComponent(name)}&phone=${phone}`;
+            
+            document.getElementById('simplybook-iframe').src = mockUrl;
+            document.getElementById('simplybook-container').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Sett min dato til i dag
+        document.getElementById('date').min = new Date().toISOString().split('T')[0];
+    </script>
+</body>
+</html>

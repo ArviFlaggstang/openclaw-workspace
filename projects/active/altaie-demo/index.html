@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altaie Frisør - Bestill Time</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 500px;
+            width: 100%;
+            padding: 40px;
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .logo h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        
+        .logo p {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .btn-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .info-box p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .phone {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 25px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .phone a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .success-message h3 {
+            color: #28a745;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        
+        .success-message p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>✂️ Altaie Frisør</h1>
+            <p>Din lokale frisør i Alta</p>
+        </div>
+        
+        <form id="bookingForm">
+            <h2>Bestill Time</h2>
+            <p class="subtitle">Fyll ut skjemaet, så tar vi kontakt for å bekrefte</p>
+            
+            <div class="info-box">
+                <p>📞 Vi ringer deg innen 24 timer for å bekrefte tidspunkt. Ingen binding!</p>
+            </div>
+            
+            <div class="form-group">
+                <label for="name">Navn *</label>
+                <input type="text" id="name" name="name" placeholder="Ditt fulle navn" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Telefon *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+47 XXX XX XXX" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="service">Tjeneste *</label>
+                <select id="service" name="service" required>
+                    <option value="">Velg tjeneste</option>
+                    <option value="klipp">Herreklipp</option>
+                    <option value="klipp-dame">Dameklipp</option>
+                    <option value="klipp-barn">Barnklipp</option>
+                    <option value="farge">Farging</option>
+                    <option value="striper">Striper/Highlights</option>
+                    <option value="barbering">Barbering</option>
+                    <option value="annet">Annet</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="date">Ønsket dato</label>
+                <input type="date" id="date" name="date" placeholder="dd/mm/yyyy">
+            </div>
+            
+            <div class="form-group">
+                <label for="time">Ønsket tid</label>
+                <select id="time" name="time">
+                    <option value="">--:--</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Melding (valgfritt)</label>
+                <textarea id="message" name="message" placeholder="Fortell oss om spesielle ønsker eller spørsmål..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit">Send forespørsel</button>
+        </form>
+        
+        <div class="success-message" id="successMessage">
+            <h3>✅ Takk!</h3>
+            <p>Vi har mottatt din forespørsel.<br><br>
+            Mohammed ringer deg innen 24 timer på <strong id="confirmPhone"></strong> for å bekrefte tidspunkt.</p>
+        </div>
+        
+        <div class="phone">
+            <p>Har du spørsmål?</p>
+            <a href="tel:95123456">📞 951 23 456</a>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Hent telefonnummer for bekreftelse
+            const phone = document.getElementById('phone').value;
+            document.getElementById('confirmPhone').textContent = phone;
+            
+            // Skjul skjema, vis suksessmelding
+            document.getElementById('bookingForm').style.display = 'none';
+            document.querySelector('.logo').style.display = 'none';
+            document.querySelector('.phone').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+            
+            // Her ville du normalt sende data til server
+            console.log('Booking forespørsel:', {
+                name: document.getElementById('name').value,
+                phone: phone,
+                service: document.getElementById('service').value,
+                datetime: document.getElementById('datetime').value,
+                message: document.getElementById('message').value
+            });
+        });
+    </script>
+</body>
+</html>
