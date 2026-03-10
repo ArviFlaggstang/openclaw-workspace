@@ -1,4 +1,4 @@
-Navn,Sted,Org.nr,Google-søk,E-post,Telefon,Messenger
+Navn,Sted,Org.nr,Google-søk,E-post,Telefon,Messenger,bookingsystem
 DIN FRISØR AS,NAMSOS,983100309,https://www.google.com/search?q=DIN+FRISØR+AS+NAMSOS+epost,,,ja,
 MIN FRISØR AS,NESBRU,914250765,https://www.google.com/search?q=MIN+FRISØR+AS+NESBRU+epost,minfrisor.as@gmail.com,,,
 VÅR FRISØR AS,STOKMARKNES,923350969,https://www.google.com/search?q=VÅR+FRISØR+AS+STOKMARKNES+epost,post@vaarfrisor.no,,,
@@ -94,6 +94,7 @@ EC FRISØR AS,NAMSOS,927456508,https://www.google.com/search?q=EC+FRISØR+AS+NAM
 EDDA FRISØR AS,BREKKE,933353389,https://www.google.com/search?q=EDDA+FRISØR+AS+BREKKE+epost,,,,
 EDELWEISS FRISØR AS,JAKOBSLI,934949943,https://www.google.com/search?q=EDELWEISS+FRISØR+AS+JAKOBSLI+epost,,,,
 EGER FRISØR AS,EGERSUND,931268473,https://www.google.com/search?q=EGER+FRISØR+AS+EGERSUND+epost,,,,
+
 
 
 
