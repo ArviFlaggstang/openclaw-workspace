@@ -55,14 +55,15 @@ _Oppdatert: 2026-03-10 av Arvi_
 
 ---
 
-## 5. Trondheim Massasje By Janpen Chueaklang
+## 5. Trondheim Massasje By Janpen Chueaklang ❌
 - **Adresse:** Vestre Rosten 36, 7072 Heimdal
 - **Telefon:** 909 88 009
 - **Nettside:** Ikke funnet
 - **Facebook/Instagram:** Ikke funnet
 - **Online booking:** Nei
 - **Eier/kontakt:** Janpen Chueaklang
-- **Notater:** Registrert 2023. ENK under kroppspleie/velvære. Sannsynligvis kun telefon for booking.
+- **Status:** ❌ DÅRLIG LEAD — ikke kontakt
+- **Notater:** Registrert 2023. ENK under kroppspleie/velvære. Prøvd kontakt 2026-03-10 — uaktuelt.
 
 ---
 
