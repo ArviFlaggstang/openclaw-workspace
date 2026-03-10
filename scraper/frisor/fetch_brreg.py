@@ -13,7 +13,20 @@ from pathlib import Path
 BRREG_API = "https://data.brreg.no/enhetsregisteret/api/enheter"
 
 # Søkeord for frisør
-SOKEORD = ["frisør", "frisor"]  # Prøv begge stavemåter
+# Disse dekker de vanligste navnene på frisørsalonger
+SOKEORD = [
+    "frisør",      # Standard stavemåte
+    "frisor",      # Uten æ/ø/å
+    "salong",      # Mange heter "Salong [Navn]"
+    "hårstudio",   # Hårstudio
+    "harstudio",   # Uten æ/ø/å
+    "hårsenter",   # Hårsenter
+    "harsenter",   # Uten æ/ø/å
+    "klipp",       # Klipp & [noe]
+    "barber",      # Barbershop
+    "frisørsalong",# Noen bruker dette
+    "frisorsalong",# Uten æ/ø/å
+]
 
 def fetch_frisor_bedrifter():
     """
