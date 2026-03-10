@@ -63,7 +63,7 @@ _Oppdatert: 2026-03-10 av Arvi_
 - **Online booking:** Nei
 - **Eier/kontakt:** Janpen Chueaklang
 - **Status:** ❌ DÅRLIG LEAD — ikke kontakt
-- **Notater:** Registrert 2023. ENK under kroppspleie/velvære. Prøvd kontakt 2026-03-10 — uaktuelt.
+- **Notater:** Registrert 2023. ENK under kroppspleie/velvære. Prøvd kontakt 2026-03-10 — snakket ikke norsk. Viktig: Thai-massasje-salonger kan ha språkbarriere.
 
 ---
 
