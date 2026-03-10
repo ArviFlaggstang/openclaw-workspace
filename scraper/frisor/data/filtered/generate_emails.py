@@ -16,31 +16,25 @@ def load_email_template():
     # For enkelhets skyld, lagrer vi malen som en string her
     template = """Hei {{BEDRIFT_NAVN}},
 
-Jeg kom over {{BEDRIFT_NAVN}} da jeg så etter frisører i {{STED}}. Jeg la merke til at dere har holdt på i {{ETABLERT_ÅR}} år — det er imponerende!
+Jeg kom over {{BEDRIFT_NAVN}} da jeg så etter frisører i {{STED}}, og la merke til at dere har gode anmeldelser.
 
-Men da jeg googlet dere, fant jeg ingen egen nettside. Det gjør det vanskelig for nye kunder å finne informasjon om dere.
+Da jeg søkte etter dere fant jeg ingen egen nettside, så jeg lagde en liten demo av hvordan en enkel nettside for {{BEDRIFT_NAVN}} kunne sett ut:
 
-Jeg studerer datateknologi på NTNU og lager nettsider for små bedrifter. Jeg har laget en **gratis demo** av hvordan en enkel nettside for {{BEDRIFT_NAVN}} kunne sett ut:
+https://frisor-hub.vercel.app/
 
-👉 {{DEMO_LINK}}
+Den viser blant annet:
+- åpningstider og kontaktinfo 
+- prisoversikt 
+- online booking 
+- mobilvennlig design
 
-Demoen inkluderer:
-- Åpningstider og kontaktinfo
-- Prisoversikt
-- Mulighet for online booking
-- Mobilvennlig design
+Jeg studerer datateknologi og lager slike nettsider og små systemer for bedrifter på fritiden.
 
-Dette er **helt uforpliktende** — bare et forslag jeg ville dele. Hvis du synes det ser interessant ut, kan jeg tilpasse den med deres logo, bilder og tekst.
+Dette er bare et uforpliktende forslag, jeg ville bare vise hva som er mulig for dere. Si ifra hvis du synes det ser interessant ut, så kan jeg tilpasse den med deres logo, bilder og informasjon.
 
-**Pris:** Én engangssum for å sette opp siden, pluss en liten månedlig sum for hosting og vedlikehold. Du slipper å tenke på noe teknisk.
-
-Si fra hvis du vil jeg skal justere noe, eller hvis du har spørsmål!
-
-Ha en fin dag,
-
-{{MITT_NAVN}}
-{{MIN_TELEFON}}
-{{MIN_EPOST}}"""
+Mvh
+Trym Andreas Johnsen 
++47 915 16 780"""
     
     return template
 
