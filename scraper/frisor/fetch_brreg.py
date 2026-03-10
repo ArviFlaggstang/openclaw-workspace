@@ -12,11 +12,9 @@ from pathlib import Path
 # API-endepunkt
 BRREG_API = "https://data.brreg.no/enhetsregisteret/api/enheter"
 
-# Søkeord for frisør
-# Disse dekker de vanligste navnene på frisørsalonger
+# Søkeord for frisør - KUN de nye termene (ikke "frisør"/"frisor")
+# Disse skal kombineres med de 3196 vi allerede har
 SOKEORD = [
-    "frisør",      # Standard stavemåte
-    "frisor",      # Uten æ/ø/å
     "salong",      # Mange heter "Salong [Navn]"
     "hårstudio",   # Hårstudio
     "harstudio",   # Uten æ/ø/å
@@ -102,12 +100,12 @@ def fetch_frisor_bedrifter():
     
     return bedrifter
 
-def save_raw_data(bedrifter):
+def save_raw_data(bedrifter, filename="frisor_bedrifter_raw.json"):
     """Lagrer rå data til JSON-fil."""
     data_dir = Path(__file__).parent / "data" / "raw"
     data_dir.mkdir(parents=True, exist_ok=True)
     
-    output_file = data_dir / "frisor_bedrifter_raw.json"
+    output_file = data_dir / filename
     
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(bedrifter, f, ensure_ascii=False, indent=2)
@@ -118,8 +116,10 @@ def main():
     bedrifter = fetch_frisor_bedrifter()
     
     if bedrifter:
-        save_raw_data(bedrifter)
-        print(f"\n✓ Hentet totalt {len(bedrifter)} frisørbedrifter")
+        # Lagre med annet navn siden dette er KUN nye termer (ikke "frisør")
+        save_raw_data(bedrifter, filename="frisor_bedrifter_andre_termer.json")
+        print(f"\n✓ Hentet totalt {len(bedrifter)} frisørbedrifter (andre termer)")
+        print(f"  Merk: Kombiner med frisor_bedrifter_frisor_only.json for full liste")
     else:
         print("\n✗ Ingen bedrifter funnet")
 
