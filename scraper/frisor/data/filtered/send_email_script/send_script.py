@@ -9,15 +9,35 @@ SMTP_PORT = 587
 SMTP_USER = os.environ["SMTP_USER"]
 SMTP_PASS = os.environ["SMTP_PASS"]
 
-CSV_FILE = " "
+CSV_FILE = "leads.csv"
 MY_NAME = "Trym Andreas Johnsen"
 MY_PHONE = "91516780"
 
 SUBJECT_1 = "Forslag til nettside for {business_name}"
 SUBJECT_2 = "Re: Forslag til nettside for {business_name}"
 
-BODY_1 = """ 
+BODY_1 = """Hei {business_name},
 
+Jeg kom over {business_name} da jeg så etter frisører i {city}, og la merke til at dere har gode anmeldelser.
+
+Da jeg søkte etter dere fant jeg ingen egen nettside, så jeg lagde en liten demo av hvordan en enkel nettside for {business_name} kunne sett ut:
+
+{demo_link}
+
+Den viser blant annet:
+• åpningstider og kontaktinfo
+• prisoversikt
+• online booking
+• mobilvennlig design
+
+Jeg studerer datateknologi og lager slike nettsider og små systemer for bedrifter på fritiden.
+
+Dette er bare et uforpliktende forslag, jeg ville bare vise hva som er mulig for dere.
+Si ifra hvis du synes det ser interessant ut, så kan jeg tilpasse den med deres logo, bilder og informasjon.
+
+Mvh
+{my_name}
+{my_phone}
 """
 
 BODY_2 = """Hei {business_name},
