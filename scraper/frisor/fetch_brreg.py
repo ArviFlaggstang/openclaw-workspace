@@ -12,67 +12,80 @@ from pathlib import Path
 # API-endepunkt
 BRREG_API = "https://data.brreg.no/enhetsregisteret/api/enheter"
 
-# NACE-kode for frisør
-NACE_KODE = "96.02"
+# Søkeord for frisør
+SOKEORD = ["frisør", "frisor"]  # Prøv begge stavemåter
 
 def fetch_frisor_bedrifter():
     """
     Henter alle frisørbedrifter fra Brønnøysundregistrene.
-    Bruker paginering for å hente alle resultater.
+    Bruker søk på navn siden naeringskode-parameteret ikke fungerer.
     """
     bedrifter = []
-    page = 0
-    size = 100  # Antall per side
+    sett_navn = set()  # For å unngå duplikater
     
     print("Henter frisørbedrifter fra Brønnøysundregistrene...")
     
-    while True:
-        params = {
-            "naeringskode": NACE_KODE,
-            "size": size,
-            "page": page
-        }
+    for sokeord in SOKEORD:
+        page = 0
+        size = 100
         
-        try:
-            response = requests.get(BRREG_API, params=params, timeout=30)
-            response.raise_for_status()
-            data = response.json()
+        print(f"\nSøker etter '{sokeord}'...")
+        
+        while True:
+            params = {
+                "navn": sokeord,
+                "size": size,
+                "page": page
+            }
             
-            # Hent bedrifter fra denne siden
-            enheter = data.get("_embedded", {}).get("enheter", [])
-            
-            if not enheter:
+            try:
+                response = requests.get(BRREG_API, params=params, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+                
+                # Hent bedrifter fra denne siden
+                enheter = data.get("_embedded", {}).get("enheter", [])
+                
+                if not enheter:
+                    break
+                
+                for enhet in enheter:
+                    orgnr = enhet.get("organisasjonsnummer")
+                    navn = enhet.get("navn")
+                    
+                    # Unngå duplikater
+                    if orgnr in sett_navn:
+                        continue
+                    sett_navn.add(orgnr)
+                    
+                    bedrifter.append({
+                        "orgnr": orgnr,
+                        "navn": navn,
+                        "organisasjonsform": enhet.get("organisasjonsform", {}).get("kode"),
+                        "registreringsdato": enhet.get("registreringsdatoEnhetsregisteret"),
+                        "naeringskode": enhet.get("naeringskode1", {}).get("kode"),
+                        "naeringsbeskrivelse": enhet.get("naeringskode1", {}).get("beskrivelse"),
+                        "forretningsadresse": enhet.get("forretningsadresse", {}),
+                        "postadresse": enhet.get("postadresse", {}),
+                        "hjemmeside": enhet.get("hjemmeside"),
+                        "antall_ansatte": enhet.get("antallAnsatte"),
+                        "konkurs": enhet.get("konkurs", False),
+                        "under_avvikling": enhet.get("underAvvikling", False),
+                        "under_tvangsavvikling": enhet.get("underTvangsavviklingEllerTvangsopplosning", False)
+                    })
+                
+                print(f"  Side {page + 1}: Hentet {len(enheter)} bedrifter (totalt unike: {len(bedrifter)})")
+                
+                # Sjekk om det er flere sider
+                if len(enheter) < size:
+                    break
+                
+                page += 1
+                time.sleep(0.5)  # Vær snill med API-et
+                
+            except requests.exceptions.RequestException as e:
+                print(f"Feil ved henting: {e}")
                 break
-            
-            for enhet in enheter:
-                bedrifter.append({
-                    "orgnr": enhet.get("organisasjonsnummer"),
-                    "navn": enhet.get("navn"),
-                    "organisasjonsform": enhet.get("organisasjonsform", {}).get("kode"),
-                    "registreringsdato": enhet.get("registreringsdatoEnhetsregisteret"),
-                    "naeringskode": enhet.get("naeringskode1", {}).get("kode"),
-                    "naeringsbeskrivelse": enhet.get("naeringskode1", {}).get("beskrivelse"),
-                    "forretningsadresse": enhet.get("forretningsadresse", {}),
-                    "postadresse": enhet.get("postadresse", {}),
-                    "hjemmeside": enhet.get("hjemmeside"),
-                    "antall_ansatte": enhet.get("antallAnsatte"),
-                    "konkurs": enhet.get("konkurs", False),
-                    "under_avvikling": enhet.get("underAvvikling", False),
-                    "under_tvangsavvikling": enhet.get("underTvangsavviklingEllerTvangsopplosning", False)
-                })
-            
-            print(f"Side {page + 1}: Hentet {len(enheter)} bedrifter (totalt: {len(bedrifter)})")
-            
-            # Sjekk om det er flere sider
-            if len(enheter) < size:
-                break
-            
-            page += 1
-            time.sleep(0.5)  # Vær snill med API-et
-            
-        except requests.exceptions.RequestException as e:
-            print(f"Feil ved henting: {e}")
-            break
     
     return bedrifter
 
