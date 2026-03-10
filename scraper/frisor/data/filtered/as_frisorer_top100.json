@@ -1,0 +1,2646 @@
+[
+  {
+    "orgnr": "983100309",
+    "navn": "DIN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2001-03-16",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7800",
+      "poststed": "NAMSOS",
+      "adresse": [
+        "Havnegata 5"
+      ],
+      "kommune": "NAMSOS",
+      "kommunenummer": "5007"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "914250765",
+    "navn": "MIN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2014-10-03",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1394",
+      "poststed": "NESBRU",
+      "adresse": [
+        "Holmquistveien 1"
+      ],
+      "kommune": "ASKER",
+      "kommunenummer": "3203"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "923350969",
+    "navn": "VÅR FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2019-09-06",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "8450",
+      "poststed": "STOKMARKNES",
+      "adresse": [
+        "Markedsgata 15"
+      ],
+      "kommune": "HADSEL",
+      "kommunenummer": "1866"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "818874502",
+    "navn": "10NA'S FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2017-04-24",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5038",
+      "poststed": "BERGEN",
+      "adresse": [
+        "Skytterveien 18"
+      ],
+      "kommune": "BERGEN",
+      "kommunenummer": "4601"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5036",
+      "poststed": "BERGEN",
+      "adresse": [
+        "Sandviksveien 87D"
+      ],
+      "kommune": "BERGEN",
+      "kommunenummer": "4601"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "924571403",
+    "navn": "3442 FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2020-02-10",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3442",
+      "poststed": "HYGGEN",
+      "adresse": [
+        "Lavaløkka 38"
+      ],
+      "kommune": "ASKER",
+      "kommunenummer": "3203"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "926924583",
+    "navn": "ACE FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2021-04-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "0187",
+      "poststed": "OSLO",
+      "adresse": [
+        "Lakkegata 52"
+      ],
+      "kommune": "OSLO",
+      "kommunenummer": "0301"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "912558207",
+    "navn": "ACI FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2013-10-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "8664",
+      "poststed": "MOSJØEN",
+      "adresse": [
+        "Bergsnevvegen 62"
+      ],
+      "kommune": "VEFSN",
+      "kommunenummer": "1824"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "932986515",
+    "navn": "ADAMS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2024-02-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3840",
+      "poststed": "SELJORD",
+      "adresse": [
+        "Brøløsvegen 64A"
+      ],
+      "kommune": "SELJORD",
+      "kommunenummer": "4022"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "935941849",
+    "navn": "ADAN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2025-08-08",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "2380",
+      "poststed": "BRUMUNDDAL",
+      "adresse": [
+        "Gammelgata 29"
+      ],
+      "kommune": "RINGSAKER",
+      "kommunenummer": "3411"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "885094732",
+    "navn": "ADORN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2002-11-23",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5955",
+      "poststed": "LINDÅS",
+      "adresse": [
+        "Lindås senter"
+      ],
+      "kommune": "ALVER",
+      "kommunenummer": "4631"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "930116300",
+    "navn": "AFRODITE FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2022-10-28",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3370",
+      "poststed": "VIKERSUND",
+      "adresse": [
+        "Vikersundgata 21"
+      ],
+      "kommune": "MODUM",
+      "kommunenummer": "3316"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "927452081",
+    "navn": "ALAN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2021-07-22",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3044",
+      "poststed": "DRAMMEN",
+      "adresse": [
+        "Tollbugata 23"
+      ],
+      "kommune": "DRAMMEN",
+      "kommunenummer": "3301"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "920293565",
+    "navn": "ALBERTINE FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2018-01-24",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4633",
+      "poststed": "KRISTIANSAND S",
+      "adresse": [
+        "Narviga 5"
+      ],
+      "kommune": "KRISTIANSAND",
+      "kommunenummer": "4204"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "918338217",
+    "navn": "ALEX FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2017-01-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3017",
+      "poststed": "DRAMMEN",
+      "adresse": [
+        "Bragernes torg 1A"
+      ],
+      "kommune": "DRAMMEN",
+      "kommunenummer": "3301"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "914937892",
+    "navn": "ALINA FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2015-02-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5918",
+      "poststed": "FREKHAUG",
+      "adresse": [
+        "Ingeskjeret 8"
+      ],
+      "kommune": "ALVER",
+      "kommunenummer": "4631"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "918836802",
+    "navn": "ALTAIE FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2017-04-06",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9513",
+      "poststed": "ALTA",
+      "adresse": [
+        "Altaveien 88"
+      ],
+      "kommune": "ALTA",
+      "kommunenummer": "5601"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "936396194",
+    "navn": "AM FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2025-10-17",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7320",
+      "poststed": "FANNREM",
+      "adresse": [
+        "Orkdalsveien 563"
+      ],
+      "kommune": "ORKLAND",
+      "kommunenummer": "5059"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "925758116",
+    "navn": "AMANDA FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2020-10-07",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3218",
+      "poststed": "SANDEFJORD",
+      "adresse": [
+        "Gjekstadveien 4"
+      ],
+      "kommune": "SANDEFJORD",
+      "kommunenummer": "3907"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3234",
+      "poststed": "SANDEFJORD",
+      "adresse": [
+        "Buerlia 42"
+      ],
+      "kommune": "SANDEFJORD",
+      "kommunenummer": "3907"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "915218326",
+    "navn": "AMAZING FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2015-04-10",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4351",
+      "poststed": "KLEPPE",
+      "adresse": [
+        "Kjøpmannsbrotet 5"
+      ],
+      "kommune": "KLEPP",
+      "kommunenummer": "1120"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "933912396",
+    "navn": "AMIN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2024-08-15",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4836",
+      "poststed": "ARENDAL",
+      "adresse": [
+        "Havnegaten 4"
+      ],
+      "kommune": "ARENDAL",
+      "kommunenummer": "4203"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "928077810",
+    "navn": "AMIR FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2021-11-06",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7160",
+      "poststed": "BJUGN",
+      "adresse": [
+        "Vassleitet 8B"
+      ],
+      "kommune": "ØRLAND",
+      "kommunenummer": "5057"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "877073882",
+    "navn": "AMTMANNSVINGEN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "1997-01-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4900",
+      "poststed": "TVEDESTRAND",
+      "adresse": [
+        "Bergsmyrveien 41C"
+      ],
+      "kommune": "TVEDESTRAND",
+      "kommunenummer": "4213"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "919268204",
+    "navn": "ANITA FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2017-07-06",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "6800",
+      "poststed": "FØRDE",
+      "adresse": [
+        "Langebruvegen 9"
+      ],
+      "kommune": "SUNNFJORD",
+      "kommunenummer": "4647"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "6815",
+      "poststed": "FØRDE",
+      "adresse": [
+        "Ulltangebakkane 33"
+      ],
+      "kommune": "SUNNFJORD",
+      "kommunenummer": "4647"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "927834820",
+    "navn": "ANKAS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2021-09-29",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9600",
+      "poststed": "HAMMERFEST",
+      "adresse": [
+        "Storgata 26"
+      ],
+      "kommune": "HAMMERFEST",
+      "kommunenummer": "5603"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "982495946",
+    "navn": "ANNE FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2000-10-17",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "6100",
+      "poststed": "VOLDA",
+      "adresse": [
+        "Hamnegata 6"
+      ],
+      "kommune": "VOLDA",
+      "kommunenummer": "1577"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "927150778",
+    "navn": "ANNES FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2021-05-26",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3830",
+      "poststed": "ULEFOSS",
+      "adresse": [
+        "Smievegen 13"
+      ],
+      "kommune": "NOME",
+      "kommunenummer": "4018"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "997802667",
+    "navn": "APOLLO FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2012-02-14",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9300",
+      "poststed": "FINNSNES",
+      "adresse": [
+        "Storgata 37"
+      ],
+      "kommune": "SENJA",
+      "kommunenummer": "5530"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "923947167",
+    "navn": "ARAMS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2019-11-27",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4013",
+      "poststed": "STAVANGER",
+      "adresse": [
+        "Pedersgata 50"
+      ],
+      "kommune": "STAVANGER",
+      "kommunenummer": "1103"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "912629848",
+    "navn": "ARCTIC FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2013-11-11",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9690",
+      "poststed": "HAVØYSUND",
+      "adresse": [
+        "Strandgata 155"
+      ],
+      "kommune": "MÅSØY",
+      "kommunenummer": "5618"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9690",
+      "poststed": "HAVØYSUND",
+      "adresse": [
+        "Fjellveien 28"
+      ],
+      "kommune": "MÅSØY",
+      "kommunenummer": "5618"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "922773157",
+    "navn": "ARIA FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2019-05-21",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "2317",
+      "poststed": "HAMAR",
+      "adresse": [
+        "Torggata 40"
+      ],
+      "kommune": "HAMAR",
+      "kommunenummer": "3403"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "913107888",
+    "navn": "ARIKO FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2014-01-21",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7224",
+      "poststed": "MELHUS",
+      "adresse": [
+        "Gimsbruvegen 4"
+      ],
+      "kommune": "MELHUS",
+      "kommunenummer": "5028"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "918945989",
+    "navn": "ARILDS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2017-05-05",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4306",
+      "poststed": "SANDNES",
+      "adresse": [
+        "Gjesdalveien 18"
+      ],
+      "kommune": "SANDNES",
+      "kommunenummer": "1108"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "824576882",
+    "navn": "ARINA FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2020-02-10",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1920",
+      "poststed": "SØRUMSAND",
+      "adresse": [
+        "Sørumsandveien 55"
+      ],
+      "kommune": "LILLESTRØM",
+      "kommunenummer": "3205"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "991435824",
+    "navn": "ARKADEN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2007-07-18",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5353",
+      "poststed": "STRAUME",
+      "adresse": [
+        "Sartor Storsenter"
+      ],
+      "kommune": "ØYGARDEN",
+      "kommunenummer": "4626"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5342",
+      "poststed": "STRAUME",
+      "adresse": [
+        "Postboks 260"
+      ],
+      "kommune": "ØYGARDEN",
+      "kommunenummer": "4626"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "918601910",
+    "navn": "ARNE FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2017-03-15",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5170",
+      "poststed": "BJØRNDALSTRÆ",
+      "adresse": [
+        "c/o Bakhtyar Ibrahim Rahim",
+        "Bjørndalsbrotet 50"
+      ],
+      "kommune": "BERGEN",
+      "kommunenummer": "4601"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5221",
+      "poststed": "NESTTUN",
+      "adresse": [
+        "Nesttunvegen 97"
+      ],
+      "kommune": "BERGEN",
+      "kommunenummer": "4601"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "884283922",
+    "navn": "ART FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2002-03-12",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "6060",
+      "poststed": "HAREID",
+      "adresse": [
+        "Kjøpmannsgata"
+      ],
+      "kommune": "HAREID",
+      "kommunenummer": "1517"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "6060",
+      "poststed": "HAREID",
+      "adresse": [
+        "Kjøpmannsgata 5"
+      ],
+      "kommune": "HAREID",
+      "kommunenummer": "1517"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "923315632",
+    "navn": "ASK FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2019-09-02",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1383",
+      "poststed": "ASKER",
+      "adresse": [
+        "Knud Askers vei 26A"
+      ],
+      "kommune": "ASKER",
+      "kommunenummer": "3203"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1384",
+      "poststed": "ASKER",
+      "adresse": [
+        "c/o Monica Skaar",
+        "Hønskogen 5B"
+      ],
+      "kommune": "ASKER",
+      "kommunenummer": "3203"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "984080999",
+    "navn": "ATELIEET FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2002-01-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5417",
+      "poststed": "STORD",
+      "adresse": [
+        "Torget 4"
+      ],
+      "kommune": "STORD",
+      "kommunenummer": "4614"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "898427382",
+    "navn": "ATENE FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2012-05-29",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "2080",
+      "poststed": "EIDSVOLL",
+      "adresse": [
+        "Sundgata 14"
+      ],
+      "kommune": "EIDSVOLL",
+      "kommunenummer": "3240"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "921311524",
+    "navn": "ATLAS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2018-09-10",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "0560",
+      "poststed": "OSLO",
+      "adresse": [
+        "Trondheimsveien 26A"
+      ],
+      "kommune": "OSLO",
+      "kommunenummer": "0301"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "924925809",
+    "navn": "BABEL FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2020-04-15",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1607",
+      "poststed": "FREDRIKSTAD",
+      "adresse": [
+        "Stortorvet 7"
+      ],
+      "kommune": "FREDRIKSTAD",
+      "kommunenummer": "3107"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "936715281",
+    "navn": "BABYLON FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2025-12-06",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1349",
+      "poststed": "RYKKINN",
+      "adresse": [
+        "Nerhavna 25"
+      ],
+      "kommune": "BÆRUM",
+      "kommunenummer": "3201"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "912561429",
+    "navn": "BAFRIN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2013-10-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1400",
+      "poststed": "SKI",
+      "adresse": [
+        "Kirkeveien 5D"
+      ],
+      "kommune": "NORDRE FOLLO",
+      "kommunenummer": "3207"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "937041764",
+    "navn": "BALEN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2026-01-27",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3211",
+      "poststed": "SANDEFJORD",
+      "adresse": [
+        "Kongens gate 19"
+      ],
+      "kommune": "SANDEFJORD",
+      "kommunenummer": "3907"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "936253318",
+    "navn": "BARCLAY FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2025-09-26",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3950",
+      "poststed": "BREVIK",
+      "adresse": [
+        "Storgata 13"
+      ],
+      "kommune": "PORSGRUNN",
+      "kommunenummer": "4001"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "819751072",
+    "navn": "BAVAS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2017-10-19",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1255",
+      "poststed": "OSLO",
+      "adresse": [
+        "Holmlia Senter vei 17"
+      ],
+      "kommune": "OSLO",
+      "kommunenummer": "0301"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "911839695",
+    "navn": "BEATES FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2013-04-18",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5938",
+      "poststed": "SÆBØVÅGEN",
+      "adresse": [
+        "Søre Austmarka 61"
+      ],
+      "kommune": "ALVER",
+      "kommunenummer": "4631"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "899152352",
+    "navn": "BERIVAN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2012-11-21",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "2000",
+      "poststed": "LILLESTRØM",
+      "adresse": [
+        "Stortorget 19"
+      ],
+      "kommune": "LILLESTRØM",
+      "kommunenummer": "3205"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "992155094",
+    "navn": "BEST FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2008-01-22",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3470",
+      "poststed": "SLEMMESTAD",
+      "adresse": [
+        "Lyngveien 33"
+      ],
+      "kommune": "ASKER",
+      "kommunenummer": "3203"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "985841748",
+    "navn": "BEVITO FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2003-07-14",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "8250",
+      "poststed": "ROGNAN",
+      "adresse": [
+        "Kirkegata 26"
+      ],
+      "kommune": "SALTDAL",
+      "kommunenummer": "1840"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "8251",
+      "poststed": "ROGNAN",
+      "adresse": [
+        "Postboks 37"
+      ],
+      "kommune": "SALTDAL",
+      "kommunenummer": "1840"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "983706924",
+    "navn": "BEZZETTI FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2001-09-22",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9325",
+      "poststed": "BARDUFOSS",
+      "adresse": [
+        "Andslimoen",
+        "Industriveien 33"
+      ],
+      "kommune": "MÅLSELV",
+      "kommunenummer": "5524"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9325",
+      "poststed": "BARDUFOSS",
+      "adresse": [
+        "Industriveien 33"
+      ],
+      "kommune": "MÅLSELV",
+      "kommunenummer": "5524"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "995378434",
+    "navn": "BJØRNESTIEN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2010-04-10",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "6200",
+      "poststed": "STRANDA",
+      "adresse": [],
+      "kommune": "STRANDA",
+      "kommunenummer": "1525"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "911622556",
+    "navn": "BLEST FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2013-02-26",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4550",
+      "poststed": "FARSUND",
+      "adresse": [
+        "Listerveien 109"
+      ],
+      "kommune": "FARSUND",
+      "kommunenummer": "4206"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "996436160",
+    "navn": "BLISS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2011-01-18",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4438",
+      "poststed": "SIRA",
+      "adresse": [
+        "Planteskogvegen 7"
+      ],
+      "kommune": "FLEKKEFJORD",
+      "kommunenummer": "4207"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "998315824",
+    "navn": "BLOKSBERG FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2012-04-30",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7030",
+      "poststed": "TRONDHEIM",
+      "adresse": [
+        "Klostergata 34A"
+      ],
+      "kommune": "TRONDHEIM",
+      "kommunenummer": "5001"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "932873036",
+    "navn": "BLOMSTERØYA FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2024-01-23",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1671",
+      "poststed": "KRÅKERØY",
+      "adresse": [
+        "Kråkerøyveien 11"
+      ],
+      "kommune": "FREDRIKSTAD",
+      "kommunenummer": "3107"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1679",
+      "poststed": "KRÅKERØY",
+      "adresse": [
+        "c/o Vilde Haslestad",
+        "Rugdeveien 2"
+      ],
+      "kommune": "FREDRIKSTAD",
+      "kommunenummer": "3107"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "916266928",
+    "navn": "BOX FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2015-11-19",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7042",
+      "poststed": "TRONDHEIM",
+      "adresse": [
+        "Ferjemannsveien 10"
+      ],
+      "kommune": "TRONDHEIM",
+      "kommunenummer": "5001"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "831496142",
+    "navn": "BRAVO FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2023-06-22",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9008",
+      "poststed": "TROMSØ",
+      "adresse": [
+        "Storgata 97"
+      ],
+      "kommune": "TROMSØ",
+      "kommunenummer": "5501"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "936467237",
+    "navn": "BRITAS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2025-10-28",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5700",
+      "poststed": "VOSS",
+      "adresse": [
+        "Stallgata 13"
+      ],
+      "kommune": "VOSS",
+      "kommunenummer": "4621"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5709",
+      "poststed": "VOSS",
+      "adresse": [
+        "Bjørgamarki 71"
+      ],
+      "kommune": "VOSS",
+      "kommunenummer": "4621"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "912167100",
+    "navn": "BRUARØY FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2013-07-11",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5200",
+      "poststed": "OS",
+      "adresse": [
+        "Brugata 1"
+      ],
+      "kommune": "BJØRNAFJORDEN",
+      "kommunenummer": "4624"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "928991393",
+    "navn": "BRUENDEN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2022-05-02",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3350",
+      "poststed": "PRESTFOSS",
+      "adresse": [
+        "Sagveien 2"
+      ],
+      "kommune": "SIGDAL",
+      "kommunenummer": "3332"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3350",
+      "poststed": "PRESTFOSS",
+      "adresse": [
+        "Sigdalsveien 2549"
+      ],
+      "kommune": "SIGDAL",
+      "kommunenummer": "3332"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "878656962",
+    "navn": "BRYGGEN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "1997-06-27",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4006",
+      "poststed": "STAVANGER",
+      "adresse": [
+        "Skagenkaien 38"
+      ],
+      "kommune": "STAVANGER",
+      "kommunenummer": "1103"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "933272540",
+    "navn": "BUVIK FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2024-04-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7350",
+      "poststed": "BUVIKA",
+      "adresse": [
+        "Skogaromvegen 1"
+      ],
+      "kommune": "SKAUN",
+      "kommunenummer": "5029"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "927811081",
+    "navn": "BØLGEN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2021-09-25",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7041",
+      "poststed": "TRONDHEIM",
+      "adresse": [
+        "Ladebekken 8B"
+      ],
+      "kommune": "TRONDHEIM",
+      "kommunenummer": "5001"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "921820925",
+    "navn": "C FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2018-12-03",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4072",
+      "poststed": "RANDABERG",
+      "adresse": [
+        "Lyngheiveien 6"
+      ],
+      "kommune": "RANDABERG",
+      "kommunenummer": "1127"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "999595111",
+    "navn": "CATALINA FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2013-01-26",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5450",
+      "poststed": "SUNDE I SUNNHORDLAND",
+      "adresse": [
+        "Opsangervegen 353"
+      ],
+      "kommune": "KVINNHERAD",
+      "kommunenummer": "4617"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "986479449",
+    "navn": "CEC FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2004-02-03",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "0355",
+      "poststed": "OSLO",
+      "adresse": [
+        "Bogstadveien 19"
+      ],
+      "kommune": "OSLO",
+      "kommunenummer": "0301"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "981628799",
+    "navn": "CENTIMETER FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2000-03-21",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9008",
+      "poststed": "TROMSØ",
+      "adresse": [
+        "Strandgata 22"
+      ],
+      "kommune": "TROMSØ",
+      "kommunenummer": "5501"
+    },
+    "postadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9252",
+      "poststed": "TROMSØ",
+      "adresse": [
+        "Postboks 219"
+      ],
+      "kommune": "TROMSØ",
+      "kommunenummer": "5501"
+    },
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "932225328",
+    "navn": "CHERIE FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2023-10-10",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3179",
+      "poststed": "ÅSGÅRDSTRAND",
+      "adresse": [
+        "c/o Linn Cherie Johansen",
+        "Lønneveien 1D"
+      ],
+      "kommune": "HORTEN",
+      "kommunenummer": "3901"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "920051103",
+    "navn": "CHRIS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2017-12-11",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3717",
+      "poststed": "SKIEN",
+      "adresse": [
+        "Kongens gate 16"
+      ],
+      "kommune": "SKIEN",
+      "kommunenummer": "4003"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "820231082",
+    "navn": "CHRISTIANSLUND FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2018-01-12",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1613",
+      "poststed": "FREDRIKSTAD",
+      "adresse": [
+        "Christianslund allé 2"
+      ],
+      "kommune": "FREDRIKSTAD",
+      "kommunenummer": "3107"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "997863569",
+    "navn": "CITY-FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2012-01-30",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4307",
+      "poststed": "SANDNES",
+      "adresse": [
+        "Kirkegata 9"
+      ],
+      "kommune": "SANDNES",
+      "kommunenummer": "1108"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "913029968",
+    "navn": "CK FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2014-01-11",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7043",
+      "poststed": "TRONDHEIM",
+      "adresse": [
+        "Rosenborg gate 5B"
+      ],
+      "kommune": "TRONDHEIM",
+      "kommunenummer": "5001"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "968152416",
+    "navn": "CLASSIC FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "1995-02-20",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5210",
+      "poststed": "OS",
+      "adresse": [
+        "c/o Amfi Os",
+        "Prestegardskogen 2B"
+      ],
+      "kommune": "BJØRNAFJORDEN",
+      "kommunenummer": "4624"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "918004289",
+    "navn": "CLIPP FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2016-11-04",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3117",
+      "poststed": "TØNSBERG",
+      "adresse": [
+        "Bjørnsons vei 4B"
+      ],
+      "kommune": "TØNSBERG",
+      "kommunenummer": "3905"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "995781751",
+    "navn": "CLIPZ FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2010-08-02",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4043",
+      "poststed": "HAFRSFJORD",
+      "adresse": [
+        "Treskeveien 1"
+      ],
+      "kommune": "STAVANGER",
+      "kommunenummer": "1103"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "925590347",
+    "navn": "CMS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2020-09-07",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5460",
+      "poststed": "HUSNES",
+      "adresse": [
+        "Teigarustene 12G"
+      ],
+      "kommune": "KVINNHERAD",
+      "kommunenummer": "4617"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "985917434",
+    "navn": "COLOSSEUM FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2003-08-11",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "0369",
+      "poststed": "OSLO",
+      "adresse": [
+        "Sørkedalsveien 10"
+      ],
+      "kommune": "OSLO",
+      "kommunenummer": "0301"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "985898073",
+    "navn": "COSMO FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2003-08-19",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9008",
+      "poststed": "TROMSØ",
+      "adresse": [
+        "Skippergata 6A"
+      ],
+      "kommune": "TROMSØ",
+      "kommunenummer": "5501"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "894538902",
+    "navn": "COSMO-FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2009-09-25",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4400",
+      "poststed": "FLEKKEFJORD",
+      "adresse": [
+        "Kirkegaten 29"
+      ],
+      "kommune": "FLEKKEFJORD",
+      "kommunenummer": "4207"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "998016541",
+    "navn": "DAHLS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2012-02-23",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7713",
+      "poststed": "STEINKJER",
+      "adresse": [
+        "Ogndalsvegen 13"
+      ],
+      "kommune": "STEINKJER",
+      "kommunenummer": "5006"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "934313186",
+    "navn": "DALEN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2024-10-21",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5004",
+      "poststed": "BERGEN",
+      "adresse": [
+        "C. Sundts gate 36"
+      ],
+      "kommune": "BERGEN",
+      "kommunenummer": "4601"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "927483165",
+    "navn": "DANI FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2021-07-30",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1430",
+      "poststed": "ÅS",
+      "adresse": [
+        "Skoleveien 2A"
+      ],
+      "kommune": "ÅS",
+      "kommunenummer": "3218"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "915868525",
+    "navn": "DANIEL FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2015-09-09",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4612",
+      "poststed": "KRISTIANSAND S",
+      "adresse": [
+        "Henrik Wergelands gate 13"
+      ],
+      "kommune": "KRISTIANSAND",
+      "kommunenummer": "4204"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "931454919",
+    "navn": "DELUXE FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2023-05-26",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1608",
+      "poststed": "FREDRIKSTAD",
+      "adresse": [
+        "Holmegata 16A"
+      ],
+      "kommune": "FREDRIKSTAD",
+      "kommunenummer": "3107"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "997436741",
+    "navn": "DESIGN-FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2011-10-06",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7170",
+      "poststed": "ÅFJORD",
+      "adresse": [
+        "Joakim Brevolds allé 1"
+      ],
+      "kommune": "ÅFJORD",
+      "kommunenummer": "5058"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "987191295",
+    "navn": "DEVA FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2004-09-01",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5224",
+      "poststed": "NESTTUN",
+      "adresse": [
+        "Hardangervegen 3"
+      ],
+      "kommune": "BERGEN",
+      "kommunenummer": "4601"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "919666811",
+    "navn": "DEZHIN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2017-10-04",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "0184",
+      "poststed": "OSLO",
+      "adresse": [
+        "Storgata 23"
+      ],
+      "kommune": "OSLO",
+      "kommunenummer": "0301"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "998050200",
+    "navn": "DIAMANTEN FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2012-03-13",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5590",
+      "poststed": "ETNE",
+      "adresse": [
+        "Tongane 8"
+      ],
+      "kommune": "ETNE",
+      "kommunenummer": "4611"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "923405577",
+    "navn": "DJERV FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2019-09-17",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9514",
+      "poststed": "ALTA",
+      "adresse": [
+        "Blokkebærveien 65"
+      ],
+      "kommune": "ALTA",
+      "kommunenummer": "5601"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "997764994",
+    "navn": "DORIS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2012-01-07",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "6973",
+      "poststed": "SANDE I SUNNFJORD",
+      "adresse": [
+        "Sandevegen 183"
+      ],
+      "kommune": "SUNNFJORD",
+      "kommunenummer": "4647"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "934289722",
+    "navn": "DUETT FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2024-10-16",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "3084",
+      "poststed": "HOLMESTRAND",
+      "adresse": [
+        "Kleivbrottet 5"
+      ],
+      "kommune": "HOLMESTRAND",
+      "kommunenummer": "3903"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "971597631",
+    "navn": "DUO FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "1995-02-20",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5179",
+      "poststed": "GODVIK",
+      "adresse": [
+        "Drotningsvikveien 132"
+      ],
+      "kommune": "BERGEN",
+      "kommunenummer": "4601"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "935991722",
+    "navn": "DUO FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2025-08-19",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "1341",
+      "poststed": "SLEPENDEN",
+      "adresse": [
+        "Slependveien 56B"
+      ],
+      "kommune": "BÆRUM",
+      "kommunenummer": "3201"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "978667589",
+    "navn": "DUS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "1997-07-02",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "0166",
+      "poststed": "OSLO",
+      "adresse": [
+        "Holbergs gate 30"
+      ],
+      "kommune": "OSLO",
+      "kommunenummer": "0301"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": 5,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "925854026",
+    "navn": "DYRØY FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2020-10-27",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "9311",
+      "poststed": "BRØSTADBOTN",
+      "adresse": [
+        "Tverrveien 9"
+      ],
+      "kommune": "DYRØY",
+      "kommunenummer": "5528"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "927456508",
+    "navn": "EC FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2021-07-22",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7800",
+      "poststed": "NAMSOS",
+      "adresse": [
+        "Niels Bjørums gate 2"
+      ],
+      "kommune": "NAMSOS",
+      "kommunenummer": "5007"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "933353389",
+    "navn": "EDDA FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2024-04-23",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "5961",
+      "poststed": "BREKKE",
+      "adresse": [
+        "Ortneset 54"
+      ],
+      "kommune": "GULEN",
+      "kommunenummer": "4635"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "934949943",
+    "navn": "EDELWEISS FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2025-01-30",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7059",
+      "poststed": "JAKOBSLI",
+      "adresse": [
+        "Jakobsgrenda 16"
+      ],
+      "kommune": "TRONDHEIM",
+      "kommunenummer": "5001"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  },
+  {
+    "orgnr": "931268473",
+    "navn": "EGER FRISØR AS",
+    "organisasjonsform": "AS",
+    "registreringsdato": "2023-04-25",
+    "naeringskode": "96.210",
+    "naeringsbeskrivelse": "Frisering og barbering",
+    "forretningsadresse": {
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "4370",
+      "poststed": "EGERSUND",
+      "adresse": [
+        "Jernbaneveien 34"
+      ],
+      "kommune": "EIGERSUND",
+      "kommunenummer": "1101"
+    },
+    "postadresse": {},
+    "hjemmeside": null,
+    "antall_ansatte": null,
+    "konkurs": false,
+    "under_avvikling": false,
+    "under_tvangsavvikling": false
+  }
+]
