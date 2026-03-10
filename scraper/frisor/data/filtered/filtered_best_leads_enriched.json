@@ -35,7 +35,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": "voss@ramsvik.no"
+    "epost": "voss@ramsvik.no",
+    "epost_manuell": "alkhaled.frisor@epost.mangler"
   },
   {
     "orgnr": "917452725",
@@ -63,7 +64,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": "stavanger@barokkfrisor.no"
+    "epost": "stavanger@barokkfrisor.no",
+    "epost_manuell": "andreassen.frisor@epost.mangler"
   },
   {
     "orgnr": "924493712",
@@ -102,7 +104,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": "post@oisenter.no"
+    "epost": "post@oisenter.no",
+    "epost_manuell": "awad.frisor@epost.mangler"
   },
   {
     "orgnr": "923462783",
@@ -130,7 +133,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": "metrosenter@steenstrom.com"
+    "epost": "metrosenter@steenstrom.com",
+    "epost_manuell": "bakkene.frisor@epost.mangler"
   },
   {
     "orgnr": "822701442",
@@ -168,7 +172,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": null,
-    "epost": "kundeservice@1881.no"
+    "epost": "kundeservice@1881.no",
+    "epost_manuell": "baxter.frisor@epost.mangler"
   },
   {
     "orgnr": "990213976",
@@ -196,7 +201,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": "madla@thonsenter.no"
+    "epost": "madla@thonsenter.no",
+    "epost_manuell": "book.frisor@epost.mangler"
   },
   {
     "orgnr": "997170474",
@@ -224,7 +230,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": null,
-    "epost": "kundeservice@1881.no"
+    "epost": "kundeservice@1881.no",
+    "epost_manuell": "ettestol.frisor@epost.mangler"
   },
   {
     "orgnr": "929692306",
@@ -252,7 +259,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": null,
-    "epost": "kundeservice@1881.no"
+    "epost": "kundeservice@1881.no",
+    "epost_manuell": "floer.frisor@epost.mangler"
   },
   {
     "orgnr": "918609326",
@@ -280,7 +288,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": null,
-    "epost": "kundeservice@1881.no"
+    "epost": "kundeservice@1881.no",
+    "epost_manuell": "frisor.alsayegh@epost.mangler"
   },
   {
     "orgnr": "927778467",
@@ -318,7 +327,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": null
+    "epost": null,
+    "epost_manuell": "frisor.furuseth@epost.mangler"
   },
   {
     "orgnr": "930953814",
@@ -346,7 +356,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": "post@staging.meraki-frisor.no"
+    "epost": "post@staging.meraki-frisor.no",
+    "epost_manuell": "frisor.melkersen@epost.mangler"
   },
   {
     "orgnr": "919271582",
@@ -374,7 +385,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": null
+    "epost": null,
+    "epost_manuell": "frisor.nysand@epost.mangler"
   },
   {
     "orgnr": "998687209",
@@ -402,7 +414,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": null,
-    "epost": "kundeservice@1881.no"
+    "epost": "kundeservice@1881.no",
+    "epost_manuell": "frisor.saure@epost.mangler"
   },
   {
     "orgnr": "929483472",
@@ -430,7 +443,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": null
+    "epost": null,
+    "epost_manuell": "frisor.sviridov@epost.mangler"
   },
   {
     "orgnr": "926096559",
@@ -458,7 +472,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": "madla@thonsenter.no"
+    "epost": "madla@thonsenter.no",
+    "epost_manuell": "frisor.ostern@epost.mangler"
   },
   {
     "orgnr": "930935506",
@@ -486,7 +501,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": null,
-    "epost": "kundeservice@1881.no"
+    "epost": "kundeservice@1881.no",
+    "epost_manuell": "hoyvik.frisor@epost.mangler"
   },
   {
     "orgnr": "920759971",
@@ -514,7 +530,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": null,
-    "epost": "kundeservice@1881.no"
+    "epost": "kundeservice@1881.no",
+    "epost_manuell": "hussein.frisor@epost.mangler"
   },
   {
     "orgnr": "925743291",
@@ -542,7 +559,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": null
+    "epost": null,
+    "epost_manuell": "huti.frisor@epost.mangler"
   },
   {
     "orgnr": "923226303",
@@ -570,7 +588,8 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": null,
-    "epost": "kundeservice@1881.no"
+    "epost": "kundeservice@1881.no",
+    "epost_manuell": "hoier.frisor@epost.mangler"
   },
   {
     "orgnr": "929546008",
@@ -599,6 +618,7 @@
     "under_tvangsavvikling": false,
     "lead_score": 35,
     "telefon": "50354607",
-    "epost": "ingvild.mehren@llholding.no"
+    "epost": "ingvild.mehren@llholding.no",
+    "epost_manuell": "ihlang.frisor@epost.mangler"
   }
 ]
