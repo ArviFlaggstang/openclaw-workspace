@@ -12,19 +12,12 @@ Logikk:
 """
 
 import csv
-import smtplib
 import os
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 
 # Konfigurasjon
 CSV_FILE = "leads.csv"
 OUTPUT_DIR = "output"
-SENDER_EMAIL = os.getenv("SENDER_EMAIL", "din@epost.no")
-SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", "")
-SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
-SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
 
 # E-postmal
 EMAIL_SUBJECT = "Lagde et lite forslag til nettside for {navn}"
@@ -42,12 +35,13 @@ Den viser blant annet:
 • prisoversikt
 • online booking
 • mobilvennlig design
+{booking_pitch}
 
 Jeg studerer datateknologi og lager slike nettsider og små systemer for små bedrifter på fritiden.
 
 Dette er bare et uforpliktende forslag – jeg ville bare vise hva som er mulig for dere.
 
-Gi gjerne en lyd hvis du synes det ser interessant ut, så kan jeg tilpasse den med deres logo, bilder og informasjon.
+Gi gjerne en lyd hvis du synes det ser interessant ut, så kan jeg endre på den for dere og tilpasse den med deres logo, bilder og informasjon.
 
 Mvh  
 Trym Andreas Johnsen  
@@ -57,13 +51,19 @@ Trym Andreas Johnsen
 # Messenger-melding
 MESSENGER_TEMPLATE = """Hei! 👋
 
-Jeg ser at {navn} i {sted} er en flott frisørsalong. 
+Jeg kom over {navn} da jeg så etter frisører i {sted}, og la merke til at dere har gode anmeldelser.
 
-Jeg hjelper frisører med digital tilstedeværelse – nettsider, booking-system{booking_tekst} og Google-optimalisering.
+Da jeg søkte etter dere fant jeg ingen egen nettside, så jeg lagde en liten demo av hvordan en enkel nettside for {navn} kunne sett ut:
 
-Er dette noe dere kunne tenke dere å høre mer om? 😊
+{demo_link}
 
-[Navnet ditt]
+{booking_pitch}
+
+Dette er bare et uforpliktende forslag – jeg ville bare vise hva som er mulig.
+
+Hva synes dere om den? 😊
+
+Trym Andreas Johnsen
 """
 
 def ensure_output_dir():
@@ -81,60 +81,60 @@ def read_leads():
     return leads
 
 def generate_email_text(lead):
-    """Genererer e-posttekst for et lead."""
     navn = lead['Navn']
     sted = lead['Sted']
+    demo_link = lead.get('Demo', 'https://frisor-hub.vercel.app/')
+
+    booking = lead.get('bookingsystem', '').strip().lower()
+
+    if booking == "nei":
+        booking_pitch = """• online booking integrert direkte på nettsiden
+
+Slik kan kunder enkelt finne dere på Google og booke time med én gang."""
     
-    # Sjekk om de mangler booking-system
-    if lead.get('bookingsystem', '').strip().lower() == 'nei':
-        booking_tekst = "\n• Enkelt online booking-system (ser dere ikke har dette ennå)"
     else:
-        booking_tekst = ""
-    
+        booking_pitch = """• tydelig knapp som sender kunder direkte til bookingsiden deres
+
+Da blir det mye enklere for kunder som meg å finne hvor man faktisk booker time."""
+
     subject = EMAIL_SUBJECT.format(navn=navn)
+
     body = EMAIL_TEMPLATE.format(
         navn=navn,
         sted=sted,
-        booking_tekst=booking_tekst
+        demo_link=demo_link,
+        booking_pitch=booking_pitch
     )
-    
+
     return subject, body
 
 def generate_messenger_text(lead):
-    """Genererer Messenger-melding for et lead."""
     navn = lead['Navn']
     sted = lead['Sted']
-    
-    # Sjekk om de mangler booking-system
-    if lead.get('bookingsystem', '').strip().lower() == 'nei':
-        booking_tekst = " (inkludert booking-løsning)"
+    demo_link = lead.get('Demo', 'https://frisor-hub.vercel.app/')
+
+    booking = lead.get('bookingsystem', '').strip().lower()
+
+    if booking == "nei":
+        booking_pitch = (
+            "Den viser blant annet åpningstider, prisoversikt og en enkel online booking "
+            "slik at kunder kan booke time direkte. "
+            "Hvis dere ikke har dette fra før kan jeg også sette opp noe lignende for dere slik at det blir enklere for kunder å booke."
+        )
     else:
-        booking_tekst = ""
-    
+        booking_pitch = (
+            "Den har blant annet en tydelig knapp som sender kunder direkte til "
+            "bookingsiden deres, slik at det blir lettere å finne hvor man booker."
+        )
+
     return MESSENGER_TEMPLATE.format(
         navn=navn,
         sted=sted,
-        booking_tekst=booking_tekst
+        demo_link=demo_link,
+        booking_pitch=booking_pitch
     )
 
-def send_email(to_email, subject, body):
-    """Sender e-post via SMTP."""
-    try:
-        msg = MIMEMultipart()
-        msg['From'] = SENDER_EMAIL
-        msg['To'] = to_email
-        msg['Subject'] = subject
-        msg.attach(MIMEText(body, 'plain', 'utf-8'))
-        
-        server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
-        server.starttls()
-        server.login(SENDER_EMAIL, SENDER_PASSWORD)
-        server.send_message(msg)
-        server.quit()
-        
-        return True, "Sendt"
-    except Exception as e:
-        return False, str(e)
+
 
 def save_draft(lead, subject, body, channel):
     """Lagrer utkast til fil."""
