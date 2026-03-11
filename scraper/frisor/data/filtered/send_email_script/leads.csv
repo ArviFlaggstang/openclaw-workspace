@@ -1,3 +1,36 @@
-email,business_name,city,owner_name,demo_link,status,first_sent_at,followup_sent_at
-alkhaledfrisor@gmail.com,ALKHALED FRISØR,Voss,,https://frisor-hub.vercel.app,pending,,
-hoierfrisor@gmail.com,HØIER FRISØR,Nøtterøy,,https://frisor-hub.vercel.app,pending,,
+Navn,Sted,Org.nr,Google-søk,E-post,Telefon,Messenger,bookingsystem
+DIN FRISØR AS,NAMSOS,983100309,https://www.google.com/search?q=DIN+FRISØR+AS+NAMSOS+epost,,,ja,
+MIN FRISØR AS,NESBRU,914250765,https://www.google.com/search?q=MIN+FRISØR+AS+NESBRU+epost,minfrisor.as@gmail.com,,,
+VÅR FRISØR AS,STOKMARKNES,923350969,https://www.google.com/search?q=VÅR+FRISØR+AS+STOKMARKNES+epost,post@vaarfrisor.no,,,
+3442 FRISØR AS,HYGGEN,924571403,https://www.google.com/search?q=3442+FRISØR+AS+HYGGEN+epost,smelvoll@gmail.com,,,
+ACI FRISØR AS,MOSJØEN,912558207,https://www.google.com/search?q=ACI+FRISØR+AS+MOSJØEN+epost,,,,
+CHI salongen AS, TRONDHEIM,,,chisalongen@gmail.com,,,
+Alina Frisør, TRONDHEIM,,,alinaantoniakfrisor@gmail.com,,,
+ADAMS FRISØR AS,SELJORD,932986515,https://www.google.com/search?q=ADAMS+FRISØR+AS+SELJORD+epost,salongadams@gmail.com,,,
+ADORN FRISØR AS,LINDÅS,885094732,https://www.google.com/search?q=ADORN+FRISØR+AS+LINDÅS+epost,,,ja,
+AFRODITE FRISØR AS,VIKERSUND,930116300,https://www.google.com/search?q=AFRODITE+FRISØR+AS+VIKERSUND+epost,,,ja,
+ALAN FRISØR AS,Danmark,927452081,https://www.google.com/search?q=ALAN+FRISØR+AS+DRAMMEN+epost,alansfo093@gmail.com,,,
+ALEX FRISØR AS,DRAMMEN,918338217,https://www.google.com/search?q=ALEX+FRISØR+AS+DRAMMEN+epost,,,ja,
+AMANDA FRISØR AS,SANDEFJORD,925758116,https://www.google.com/search?q=AMANDA+FRISØR+AS+SANDEFJORD+epost,amanda@slyngstadli.no,,,
+AMAZING FRISØR AS,KLEPPE,915218326,https://www.google.com/search?q=AMAZING+FRISØR+AS+KLEPPE+epost,amazingfrisor@gmail.com,,,
+AMIN FRISØR AS,ARENDAL,933912396,https://www.google.com/search?q=AMIN+FRISØR+AS+ARENDAL+epost,aminfrisor@hotmail.com,,,
+AMIR FRISØR AS,BJUGN,928077810,https://www.google.com/search?q=AMIR+FRISØR+AS+BJUGN+epost,wealosman1990@gmail.com,,,
+AMTMANNSVINGEN FRISØR AS,TVEDESTRAND,877073882,https://www.google.com/search?q=AMTMANNSVINGEN+FRISØR+AS+TVEDESTRAND+epost,,,ja,
+ANITA FRISØR AS,FØRDE,919268204,https://www.google.com/search?q=ANITA+FRISØR+AS+FØRDE+epost,,,ja,
+ANKAS FRISØR AS,HAMMERFEST,927834820,https://www.google.com/search?q=ANKAS+FRISØR+AS+HAMMERFEST+epost,,,,
+ANNES FRISØR AS,ULEFOSS,927150778,https://www.google.com/search?q=ANNES+FRISØR+AS+ULEFOSS+epost,,,,nei
+ARAMS FRISØR AS,STAVANGER,923947167,https://www.google.com/search?q=ARAMS+FRISØR+AS+STAVANGER+epost,post@aramsfrisor.no,,,
+ARCTIC FRISØR AS,HAVØYSUND,912629848,https://www.google.com/search?q=ARCTIC+FRISØR+AS+HAVØYSUND+epost,arcticfrisor@outlook.com,,,
+ARIA FRISØR AS,HAMAR,922773157,https://www.google.com/search?q=ARIA+FRISØR+AS+HAMAR+epost,,,ja,
+ARIKO FRISØR AS,MELHUS,913107888,https://www.google.com/search?q=ARIKO+FRISØR+AS+MELHUS+epost,,,ja,
+ARILDS FRISØR AS,SANDNES,918945989,https://www.google.com/search?q=ARILDS+FRISØR+AS+SANDNES+epost,,,ja,nei
+ARINA FRISØR AS,SØRUMSAND,824576882,https://www.google.com/search?q=ARINA+FRISØR+AS+SØRUMSAND+epost,,,ja,
+ARNE FRISØR AS,BJØRNDALSTRÆ,918601910,https://www.google.com/search?q=ARNE+FRISØR+AS+BJØRNDALSTRÆ+epost,,,ja,nei
+ATENE FRISØR AS,EIDSVOLL,898427382,https://www.google.com/search?q=ATENE+FRISØR+AS+EIDSVOLL+epost,miriam.ruud@hotmail.com,,,nei
+ATLAS FRISØR AS,OSLO,921311524,https://www.google.com/search?q=ATLAS+FRISØR+AS+OSLO+epost,,,ja,nei
+BABEL FRISØR AS,FREDRIKSTAD,924925809,https://www.google.com/search?q=BABEL+FRISØR+AS+FREDRIKSTAD+epost,hawhre162@gmail.com,,,
+BABYLON FRISØR AS,RYKKINN,936715281,https://www.google.com/search?q=BABYLON+FRISØR+AS+RYKKINN+epost,babylonfrisor@hotmail.com,,,
+BAFRIN FRISØR AS,SKI,912561429,https://www.google.com/search?q=BAFRIN+FRISØR+AS+SKI+epost,baf-ros@hotmail.com,,,
+BEATES FRISØR AS,SÆBØVÅGEN,911839695,https://www.google.com/search?q=BEATES+FRISØR+AS+SÆBØVÅGEN+epost,,,ja,nei
+BERIVAN FRISØR AS,LILLESTRØM,899152352,https://www.google.com/search?q=BERIVAN+FRISØR+AS+LILLESTRØM+epost,,,ja,nei
+BEVITO FRISØR AS,ROGNAN,985841748,https://www.google.com/search?q=BEVITO+FRISØR+AS+ROGNAN+epost,len1981maitonje@hotmail.com,,,
