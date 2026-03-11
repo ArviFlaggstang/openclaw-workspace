@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Din Frisørsalon – Profesjonell hårpleie</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10rem 2rem 6rem;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        /* Pricing Section */
+        .pricing {
+            background: #f8f9fa;
+            padding: 5rem 2rem;
+        }
+        
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .price-item {
+            background: white;
+            padding: 1.5rem 2rem;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.2rem;
+        }
+        
+        /* About Section */
+        .about {
+            padding: 5rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .about p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+        
+        /* Booking Section */
+        .booking {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        
+        .booking h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .booking p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .booking-form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            color: #333;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            background: #667eea;
+            color: white;
+            padding: 1rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background: #5a6fd6;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 5rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .contact-item {
+            padding: 1.5rem;
+        }
+        
+        .contact-item h4 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">💇 Din Frisørsalon</div>
+            <ul class="nav-links">
+                <li><a href="#hjem">Hjem</a></li>
+                <li><a href="#tjenester">Tjenester</a></li>
+                <li><a href="#priser">Priser</a></li>
+                <li><a href="#om-oss">Om oss</a></li>
+                <li><a href="#booking">Book time</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hjem" class="hero">
+        <h1>Velkommen til Din Frisørsalon</h1>
+        <p>Profesjonell hårpleie med fokus på deg og din stil</p>
+        <a href="#booking" class="cta-button">Book time nå</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="tjenester" class="services">
+        <h2 class="section-title">Våre Tjenester</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">✂️</div>
+                <h3>Klipp</h3>
+                <p>Profesjonell klipp tilpasset ditt hår og din stil. Vi lytter til dine ønsker og gir råd basert på ditt hår.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Farge</h3>
+                <p>Alt fra naturlige toner til kreative farger. Vi bruker kvalitetsprodukter for langvarig resultat.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">✨</div>
+                <h3>Styling</h3>
+                <p>Perfekt styling til hverdag eller spesielle anledninger. Fønvik, krølling og oppsetting.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💆</div>
+                <h3>Behandlinger</h3>
+                <p>Kur og pleie for sunt, sterk hår. Vi tilbyr også hodebunnsmassasje og hårbotox.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="priser" class="pricing">
+        <h2 class="section-title">Priser</h2>
+        <div class="pricing-grid">
+            <div class="price-item">
+                <span>Dameklipp</span>
+                <span class="price">fra 450 kr</span>
+            </div>
+            <div class="price-item">
+                <span>Herreklipp</span>
+                <span class="price">fra 350 kr</span>
+            </div>
+            <div class="price-item">
+                <span>Barn (0-12 år)</span>
+                <span class="price">fra 250 kr</span>
+            </div>
+            <div class="price-item">
+                <span>Farging</span>
+                <span class="price">fra 800 kr</span>
+            </div>
+            <div class="price-item">
+                <span>Striper/Highlights</span>
+                <span class="price">fra 950 kr</span>
+            </div>
+            <div class="price-item">
+                <span>Retter tupper</span>
+                <span class="price">fra 200 kr</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="om-oss" class="about">
+        <h2 class="section-title">Om Oss</h2>
+        <p>Vi er en profesjonell frisørsalon med fokus på kvalitet og kundetilfredshet. Våre erfarne frisører holder seg oppdatert på de nyeste trendene og teknikkene.</p>
+        <p>Vi bruker kun kvalitetsprodukter og tilbyr personlig veiledning for å finne den perfekte stilen for deg. Velkommen til en hyggelig frisøropplevelse!</p>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <h2>Book Time Online</h2>
+        <p>Bestill din time enkelt og raskt</p>
+        <form class="booking-form">
+            <div class="form-group">
+                <label for="name">Navn</label>
+                <input type="text" id="name" name="name" placeholder="Ditt navn" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefon</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ditt telefonnummer" required>
+            </div>
+            <div class="form-group">
+                <label for="service">Tjeneste</label>
+                <select id="service" name="service" required>
+                    <option value="">Velg tjeneste</option>
+                    <option value="dameklipp">Dameklipp</option>
+                    <option value="herreklipp">Herreklipp</option>
+                    <option value="barn">Barn (0-12 år)</option>
+                    <option value="farging">Farging</option>
+                    <option value="striper">Striper/Highlights</option>
+                    <option value="tupper">Retter tupper</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Ønsket dato</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <button type="submit" class="submit-btn">Send forespørsel</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="contact">
+        <h2 class="section-title">Kontakt Oss</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h4>📍 Adresse</h4>
+                <p>Din Adresse 123<br>7000 Trondheim</p>
+            </div>
+            <div class="contact-item">
+                <h4>📞 Telefon</h4>
+                <p>123 45 678</p>
+            </div>
+            <div class="contact-item">
+                <h4>✉️ E-post</h4>
+                <p>kontakt@dinfrisor.no</p>
+            </div>
+            <div class="contact-item">
+                <h4>🕐 Åpningstider</h4>
+                <p>Man–Fre: 09:00–17:00<br>Lør: 10:00–14:00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Din Frisørsalon. Alle rettigheter reservert.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission handler
+        document.querySelector('.booking-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Takk for din booking-forespørsel! Vi kontakter deg snart.');
+        });
+    </script>
+</body>
+</html>
