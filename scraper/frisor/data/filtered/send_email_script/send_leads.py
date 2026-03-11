@@ -27,26 +27,31 @@ SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
 
 # E-postmal
-EMAIL_SUBJECT = "Hei {navn} – vi hjelper frisører med digital tilstedeværelse"
+EMAIL_SUBJECT = "Lagde et lite forslag til nettside for {navn}"
 
-EMAIL_TEMPLATE = """Hei {navn}!
+EMAIL_TEMPLATE = """Hei {navn},
 
-Jeg håper du har en fin dag i {sted}.
+Jeg kom over {navn} da jeg så etter frisører i {sted}, og la merke til at dere har gode anmeldelser.
 
-Jeg kontakter deg fordi jeg ser at {navn} er en etablert frisørsalong, og jeg lurte på om dere har behov for hjelp med digital markedsføring eller nettside?
+Da jeg søkte etter dere fant jeg ingen egen nettside, så jeg lagde en liten demo av hvordan en enkel nettside for {navn} kunne sett ut:
 
-Vi spesialiserer oss på å hjelpe små bedrifter som frisørsalonger med:
-• Profesjonell nettside som viser frem deres arbeid
-• Booking-system integrert på nettsiden{booking_tekst}
-• Google Business-optimalisering for flere lokale kunder
+https://frisor-hub.vercel.app/
 
-Dette er en uforpliktende henvendelse – jeg vil gjerne høre om dette er noe dere kunne vært interessert i.
+Den viser blant annet:
+• åpningstider og kontaktinfo
+• prisoversikt
+• online booking
+• mobilvennlig design
 
-Har du 10 minutter til en uforpliktende prat i løpet av uken?
+Jeg studerer datateknologi og lager slike nettsider og små systemer for små bedrifter på fritiden.
 
-Med vennlig hilsen,
-[Navnet ditt]
-[Tlf]
+Dette er bare et uforpliktende forslag – jeg ville bare vise hva som er mulig for dere.
+
+Gi gjerne en lyd hvis du synes det ser interessant ut, så kan jeg tilpasse den med deres logo, bilder og informasjon.
+
+Mvh  
+Trym Andreas Johnsen  
++47 915 16 780
 """
 
 # Messenger-melding
