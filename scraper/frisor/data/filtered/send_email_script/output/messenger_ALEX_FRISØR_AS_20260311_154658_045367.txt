@@ -1,0 +1,21 @@
+Til: Facebook Messenger
+Bedrift: ALEX FRISØR AS
+Sted: DRAMMEN
+Kanal: messenger
+==================================================
+
+Hei! 👋
+
+Jeg kom over Alex Frisør da jeg så etter frisører i Drammen, og la merke til at dere har gode anmeldelser.
+
+Da jeg søkte etter dere fant jeg ingen egen nettside, så jeg lagde en liten demo av hvordan en enkel nettside for Alex Frisør kunne sett ut:
+
+https://frisor-hub.vercel.app/
+
+Den har blant annet en tydelig knapp som sender kunder direkte til bookingsiden deres, slik at det blir lettere å finne hvor man booker.
+
+Dette er bare et uforpliktende forslag – jeg ville bare vise hva som er mulig.
+
+Hva synes dere om den? 😊
+
+Trym Andreas Johnsen
